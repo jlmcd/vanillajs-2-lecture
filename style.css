@@ -6,8 +6,27 @@ box-sizing: border-box;
 font-family: sans-serif;
 }
 
-h1 {
+header {
   text-align: center;
+}
+header input, header button {
+  font-size: 1rem;
+}
+header input {
+  line-height: 1.8rem;
+}
+header button {
+  background: none;
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: .4rem 1rem;
+}
+header button:active {
+  box-shadow: #000 0 2px 10px inset;
+}
+header button:focus {
+  outline: none;
+  cursor: pointer;
 }
 
 #light-container {
